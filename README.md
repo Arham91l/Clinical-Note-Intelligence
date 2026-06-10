@@ -293,50 +293,6 @@ streamlit run app.py
 
 ---
 
-## 📁 Repository Structure
-
-```
-clinical-note-intelligence/
-│
-├── app.py                          # Main Streamlit application
-├── requirements.txt
-├── README.md
-│
-├── src/
-│   ├── summarizer.py               # DistilBART summarization pipeline
-│   ├── keyword_extractor.py        # KeyBERT + BioBERT extraction
-│   ├── risk_predictor.py           # XGBoost inference wrapper
-│   ├── feature_engineering.py      # Feature extraction for risk model
-│   ├── pdf_generator.py            # FPDF2 report generation
-│   └── preprocessor.py             # Clinical text cleaning utilities
-│
-├── training/
-│   ├── train_risk_model.py         # XGBoost training script
-│   ├── label_engineering.py        # Risk label heuristics
-│   └── evaluate.py                 # Evaluation scripts (ROUGE, F1, AUC)
-│
-├── models/
-│   └── xgb_risk_model.pkl          # Trained XGBoost model (tracked via Git LFS)
-│
-├── data/
-│   ├── mtsamples.csv               # MTSamples dataset
-│   └── sample_notes/               # Sample notes for demo
-│
-├── notebooks/
-│   ├── 01_EDA_MTSamples.ipynb
-│   ├── 02_Summarization_Experiments.ipynb
-│   ├── 03_Keyword_Extraction.ipynb
-│   └── 04_Risk_Modeling.ipynb
-│
-├── docs/
-│   ├── Clinical_Note_Intelligence_Report.pdf
-│   └── screenshots/
-│
-└── .streamlit/
-    └── config.toml
-```
-
----
 
 ## 🛠️ Tech Stack
 
@@ -366,15 +322,6 @@ clinical-note-intelligence/
 ## 👤 Author
 
 **Arham**
-- 📧 [your.email@example.com]
-- 💼 [LinkedIn Profile]
-- 🐙 [GitHub Profile]
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 > **Data Note:** MTSamples data is de-identified and publicly available for research and educational purposes.
 
