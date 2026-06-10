@@ -207,10 +207,10 @@ Actual Low  [ 312    18     4  ]
 > 📸 _Add screenshots of your Streamlit dashboard here_
 
 ```
-![Dashboard Overview](docs/screenshots/dashboard_overview.png)
-![Risk Prediction Panel](docs/screenshots/risk_panel.png)
-![Keyword Extraction](docs/screenshots/keywords.png)
-![PDF Report Sample](docs/screenshots/pdf_report.png)
+![Dashboard Overview](images/c1.png)
+![Risk Prediction Panel](images/c2.png)
+![Keyword Extraction](images/c3.png)
+![PDF Report Sample](images/c4.png)
 ```
 
 ---
