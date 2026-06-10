@@ -287,7 +287,7 @@ streamlit run app.py
 
 ## 🚀 Live Demo
 
-> 🔗 **[Streamlit Cloud Deployment — Click Here](https://clinical-note-intelligence-syudcrjlkpka3mewvvfnd2.streamlit.app/)**
+> 🔗 **(https://clinical-note-intelligence-syudcrjlkpka3mewvvfnd2.streamlit.app/)**
 
 > ⚠️ **Note on Cold Start:** The first run may take 30–60 seconds as DistilBART and BioBERT models load into memory. Subsequent runs are fast.
 
